@@ -1,0 +1,14 @@
+{
+  "list": [
+    {
+      "name": "bozr",
+      "url": "https://github.com/kajf/dpfg",
+      "desc": "Minimalistic CLI tool to perform REST API tests based on JSON DSL."
+    },
+    {
+      "name": "Mastoid Color Theme (VSCode)",
+      "url": "https://github.com/dpfg/mastoid-color-theme-vsc",
+      "desc": "Light color theme inspired by godoc."
+    }
+  ]
+}
