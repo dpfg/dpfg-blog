@@ -4,7 +4,6 @@ title = "dpfg home"
 theme = "cactus"
 copyright = "dpfg"
 
-
 # Main menu which appears below site header.
 [[menu.main]]
 name = "Home"
@@ -31,9 +30,19 @@ weight = 4
     endLevel = 4
     ordered = false
     startLevel = 2
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = false
+    style = "monokai"
+    tabWidth = 4
 
 [params]
-
+  custom_css = ["static/syntax.css"]
   colortheme = "classic" # dark, light, white, or classic
   rss = true # generate rss feed. default value is false
   googleAnalyticsAsync = true # use asynchronous tracking. Synchronous tracking by default
