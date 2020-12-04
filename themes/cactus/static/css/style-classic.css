@@ -450,8 +450,8 @@ body td {
   font-style: normal;
   font-family: "Merriweather";
   src: local("Merriweather"),
-    url("../lib/Merriweather/web/merriweather-regular.woff")
-      url("../lib/Merriweather/web/merriweather-regular.woff2");
+    url("../lib/Merriweather/web/merriweather-regular.woff") format("woff"),
+    url("../lib/Merriweather/web/merriweather-regular.woff2") format("woff2");
 }
 *,
 *:before,
